@@ -1,0 +1,22 @@
+create database CadastroVeiculos;
+
+use CadastroVeiculos;
+
+--Criar Tabela Jogos
+create table Veiculos
+(
+	Id uniqueidentifier,
+	Marca varchar(30),
+	Modelo varchar(30),
+	Ano int,
+	Preco float
+);
+
+--Inserir dados para testar.
+insert Veiculos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd84', 'Renault', 'Kwid', 2017, 48790);
+insert Veiculos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd85', 'Fiat', 'Mobi', 2016, 49240);
+insert Veiculos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd86', 'Fiat', 'Uno', 2017, 64990);
+insert Veiculos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd87', 'Hyundai', 'HB20', 2018, 64190);
+insert Veiculos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd88', 'Chevrolet', 'Joy', 2017, 64240);
+insert Veiculos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd89', 'Volkswagen', 'Gol', 2020, 65590);
+insert Veiculos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd89', 'Fiat', 'Grand Siena', 2019, 66290);
